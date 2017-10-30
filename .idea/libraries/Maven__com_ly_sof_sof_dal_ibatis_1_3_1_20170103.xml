@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ly.sof:sof-dal-ibatis:1.3.1.20170103">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ly/sof/sof-dal-ibatis/1.3.1.20170103/sof-dal-ibatis-1.3.1.20170103.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ly/sof/sof-dal-ibatis/1.3.1.20170103/sof-dal-ibatis-1.3.1.20170103-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ly/sof/sof-dal-ibatis/1.3.1.20170103/sof-dal-ibatis-1.3.1.20170103-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
