@@ -13,7 +13,7 @@
 	<entry key="namespace">pages</entry>
 	
 	<!--<entry key="outRoot">.\generator-output</entry>-->
-	<entry key="outRoot">D:\rapid\rapid-learn\src\main\java\com\lewis\rapid\mapper</entry>
+	<entry key="outRoot">E:\code\github_workspace\rapid-learn\src\main\java\com\lewis\rapid\mapper</entry>
 
 	<!-- 需要移除的表名前缀,使用逗号进行分隔多个前缀,示例值: t_,v_ -->
 	<entry key="tableRemovePrefixes"></entry>
@@ -30,9 +30,9 @@
 	<entry key="java_typemapping.java.sql.Time">java.util.Date</entry>	
 	<entry key="java_typemapping.java.lang.Byte">Integer</entry>
 	<entry key="java_typemapping.java.lang.Short">Integer</entry>
-	<entry key="java_typemapping.java.lang.Integer">int</entry>
-	<entry key="java_typemapping.java.lang.Long">long</entry>
-	<entry key="java_typemapping.java.math.BigDecimal">double</entry>
+	<entry key="java_typemapping.java.lang.Integer">Integer</entry>
+	<entry key="java_typemapping.java.lang.Long">Long</entry>
+	<entry key="java_typemapping.java.math.BigDecimal">Double</entry>
 	<entry key="java_typemapping.java.sql.Clob">String</entry>
 	<!-- H2
 	<entry key="jdbc.url">jdbc:h2:tcp://localhost/test</entry>
@@ -42,7 +42,7 @@
 	<entry key="jdbc_url">jdbc:mysql://localhost:3306/snail_reader?useUnicode=true&amp;characterEncoding=UTF-8</entry>
 	<entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
 	<entry key="jdbc_username">root</entry>
-	<entry key="jdbc_password"></entry>
+	<entry key="jdbc_password">root</entry>
 
 	<!-- Oracle 	jdbc:oracle:oci:@tnsname_devdb
 	<entry key="jdbc.url">jdbc:oracle:thin:@192.168.0.177:1521:[sid]</entry>
