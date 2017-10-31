@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE table SYSTEM "http://sources.alipay.net/svn/dtd/table-config-1.0.dtd">
+
+<table sqlname="ActionLog">
+	<!-- 不需要配置的列请删除 -->
+
+	<operation name="checkDataExist" multiplicity="many">
+		<sql>
+			SELECT * FROM author
+			WHERE
+			AuthorId = ?
+		</sql>
+	</operation>
+
+
+</table>
