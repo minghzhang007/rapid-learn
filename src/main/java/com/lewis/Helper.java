@@ -5,6 +5,7 @@ import cn.org.rapid_framework.generator.ext.tableconfig.model.TableConfig;
 import cn.org.rapid_framework.generator.ext.tableconfig.model.TableConfigSet;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -43,6 +44,11 @@ public class Helper {
         GeneratorFacade gf = new GeneratorFacade();
         gf.getGenerator().setTemplateRootDirs(templateRootDirs);
         gf.getGenerator().setOutRootDir(outRootDir);
+        try {
+            gf.getGenerator().deleteOutRootDir();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return gf;
     }
 
